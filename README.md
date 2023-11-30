@@ -1,4 +1,4 @@
-# Spatial Index for Real-time Location Search
+# Real-time Location Search with Spatial Index
 ## Spatial Index Overview
 
 The application leverages MongoDB's Geospatial Queries through the implementation of a 2dsphere spatial index. This index is specifically designed for geospatial data and supports efficient querying of spatial relationships between geometric shapes. In this case, it is applied to the `location` field in the MongoDB collection, allowing for optimized location-based searches.
