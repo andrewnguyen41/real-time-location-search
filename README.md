@@ -8,7 +8,7 @@ Geo-spatial data refers to information that identifies the geographical location
 ### Geo-Spatial index
 A Geo-Spatial index, also known as a spatial index, is a data structure specifically designed to efficiently store and query spatial data in databases. It's used to optimize the retrieval of information related to geographic locations or spatial objects. Geospatial indexes organize spatial data in a way that makes it quicker to perform spatial queries, such as finding nearby points, determining contained or intersecting regions, or conducting distance-based searches.
 <div align="center">
-<img src="./spatial_index.png" alt="Spatial Index" width="80%"/>
+<img src="./spatial_index.png" alt="Spatial Index" width="60%"/>
 </div>
 
 
