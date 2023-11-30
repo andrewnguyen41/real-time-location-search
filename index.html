@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Locator</title>
+</head>
+<body>
+    <h1>Driver Locator</h1>
+    <button onclick="findNearbyDrivers()">Find Nearby Drivers</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        function findNearbyDrivers() {
+            var lat = parseFloat(prompt("Enter your latitude:"));
+            var lon = parseFloat(prompt("Enter your longitude:"));
+            var scan_distance = parseFloat(prompt("Enter scan distance in meters:"));
+
+            socket.emit('find_drivers', {'lat': lat, 'lon': lon, 'scan_distance': scan_distance});
+        }
+
+        socket.on('nearby_drivers', function (data) {
+            console.log('Nearby Drivers:', data);
+            // Handle the list of nearby drivers
+        });
+
+        // Implement code to handle updating driver locations using websockets
+
+    </script>
+</body>
+</html>
