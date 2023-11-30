@@ -1,6 +1,6 @@
 # Real-time Location Search with Spatial Index
 A Real-time Location Search demonstration for driving booking app with efficient nearby drivers finding using Flask, Socket.IO, and spatial indexing for optimal performance and accuracy.
-## Geo-Spatial overview
+## Overview
 ### Geo-Spatial Data
 
 Geo-spatial data refers to information that identifies the geographical location of physical objects, features, or observations on the Earth's surface. It encompasses various data types, including coordinates, shapes, distances, and metadata related to geographic features.
