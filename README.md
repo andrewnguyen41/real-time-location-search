@@ -8,7 +8,7 @@ Geo-spatial data refers to information that identifies the geographical location
 ### Geo-Spatial index
 A Geo-Spatial index, also known as a spatial index, is a data structure specifically designed to efficiently store and query spatial data in databases. It's used to optimize the retrieval of information related to geographic locations or spatial objects. Geospatial indexes organize spatial data in a way that makes it quicker to perform spatial queries, such as finding nearby points, determining contained or intersecting regions, or conducting distance-based searches.
 <div align="center">
-<img src="./spatial_index.png" alt="Spatial Index" width="60%"/>
+<img src="./imgs/spatial_index.jpg" alt="Spatial Index" width="80%"/>
 </div>
 
 
@@ -22,7 +22,7 @@ MongoDB, a NoSQL database, provides robust support for handling Geo-spatial data
 - **`$geoWithin`:** Selects objects within a specified area.
 - **`$geoIntersects`:** Selects objects that intersect with a specified GeoJSON object.
 
-For more information about MongoDB's 2dsphere index, please refer this article: https://www.mongodb.com/docs/manual/core/indexes/index-types/geospatial/2dsphere/
+For more information about MongoDB's 2dsphere index, please refer to this article: https://www.mongodb.com/docs/manual/core/indexes/index-types/geospatial/2dsphere/
 
 ### Benefits of Spatial Indexing
 
@@ -43,7 +43,7 @@ The real-time functionality of the system is facilitated by Flask-SocketIO. Clie
 
 ## App Flow
 <div align="center">
-<img src="./flow.png" alt="App Flow" width="80%"/>
+<img src="./imgs/flow.png" alt="App Flow" width="80%"/>
 </div>
 
 1. **Client Connection:**
@@ -102,4 +102,4 @@ Below is an overview of the key directories and files:
 
 - **`./requirements.txt`**: Contains a list of Python packages and their versions required for the project. Install dependencies using `pip install -r requirements.txt`.
 
-Feel free to delve into the code and make adjustments to suit your specific requirements. If you encounter any questions or issues, don't hesitate to reach out. Happy coding!
+Feel free to customize the project structure based on your preferences and additional requirements.

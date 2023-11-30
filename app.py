@@ -4,7 +4,7 @@ from flask_socketio import SocketIO
 from pymongo import MongoClient
 from flask_socketio import emit
 
-app = Flask(__name__, template_folder='.')
+app = Flask(__name__, template_folder='./templates')
 socketio = SocketIO(app)
 
 # Connect to MongoDB
