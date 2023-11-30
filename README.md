@@ -102,4 +102,4 @@ Below is an overview of the key directories and files:
 
 - **`./requirements.txt`**: Contains a list of Python packages and their versions required for the project. Install dependencies using `pip install -r requirements.txt`.
 
-Feel free to customize the project structure based on your preferences and additional requirements.
+Feel free to delve into the code and make adjustments to suit your specific requirements. If you encounter any questions or issues, don't hesitate to reach out. Happy coding!
