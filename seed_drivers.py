@@ -16,6 +16,6 @@ driver_data = [
 result = drivers_collection.insert_many(driver_data)
 print(f"Inserted {len(result.inserted_ids)} drivers into the database.")
 
-# create spatiel index
+# create spatial index
 drivers_collection.create_index([("location", "2dsphere")])
 print(f"Created 2dsphere index.")
