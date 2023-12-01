@@ -26,8 +26,8 @@ def test_update_location_socket(test_client):
     received = test_client.get_received()
     assert len(received) == 1
     print(received)
-    assert received[0]['name'] == 'update_location_success'  # Assuming you emit a message event on update_location
-
+    assert received[0]['name'] == 'update_location_success'
+    
 def test_find_drivers_socket(test_client):
     data = {
         "lat": 40.7128,  # New York City coordinates
