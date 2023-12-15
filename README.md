@@ -104,4 +104,5 @@ Below is an overview of the key directories and files:
 
 ## Support and Feedback
 
-Feel free to delve into the code and make adjustments to suit your specific requirements. If you encounter any questions or issues, don't hesitate to reach out. Happy coding!
+Feel free to delve into the code and make adjustments to suit your specific requirements. If you encounter any questions or issues, don't hesitate to reach out. \
+Happy coding!
